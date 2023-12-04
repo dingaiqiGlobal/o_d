@@ -1,4 +1,4 @@
-# cesium_vue_ding
+# ding_ol
 
 ## Project setup
 ```
