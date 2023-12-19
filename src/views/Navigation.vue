@@ -73,6 +73,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/animate/animate_ArrowLine.jpg",
+          text: "箭头线",
+          path: "/animate_ArrowLine",
+        },
+        {
+          id: 9,
           img: "/images/animate/animate_DynamicPoints.jpg",
           text: "扩散圆",
           path: "/animate_DynamicPoints",
