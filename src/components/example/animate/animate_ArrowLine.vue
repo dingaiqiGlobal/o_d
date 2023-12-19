@@ -118,7 +118,10 @@ export default {
         }),
       ];
       for (let i = 0; i <= 1; i += radio) {
+        //沿行字符串返回所提供分数处的坐标。
+        //分数是一个介于0和1之间的数字，其中0是行字符串的开始，1是结束
         let arrowLocation = geometry.getCoordinateAt(i);
+        //遍历每个段，调用提供的回调。
         geometry.forEachSegment(function (start, end) {
           if (start[0] == end[0] || start[1] == end[1]) return;
           let dx1 = end[0] - arrowLocation[0];
