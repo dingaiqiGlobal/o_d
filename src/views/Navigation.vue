@@ -73,6 +73,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/animate/animate_FlowLine.jpg",
+          text: "流动线",
+          path: "/animate_FlowLine",
+        },
+        {
+          id: 9,
           img: "/images/animate/animate_ArrowLine.jpg",
           text: "箭头线",
           path: "/animate_ArrowLine",
