@@ -91,6 +91,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/animate/animate_RunPath2.jpg",
+          text: "轨迹回放2",
+          path: "/animate_RunPath2",
+        },
+        {
+          id: 9,
           img: "/images/animate/animate_RunPath.jpg",
           text: "轨迹回放",
           path: "/animate_RunPath",

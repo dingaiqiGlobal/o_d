@@ -129,7 +129,13 @@ export default {
         ],
       });
       this.map.addLayer(geojsonLayer);
-      geojsonLayer.getSource().on("featuresloadstart", (evt) => {
+      /**
+       * 1.创建矢量图层；
+       * 2.设置矢量图层样式，以样式组形式；
+       * 3.矢量图层样式组底层保持不变，改变矢量图层的要素feature属性值，动态更新顶层样式的线间隔lineDashOffset属性值，达到线水流动效果。
+       * 关键点：矢量图层的样式style内部更新渲染机制，在图层可见范围，地图缩放会自动触发；矢量图层的要素设置属性值变化的话，也会触发。
+       */
+      geojsonLayer.getSource().on("featuresloadstart", (evt) => {//这个事件很特殊
         geojsonLayer
           .getSource()
           .getFeatures()

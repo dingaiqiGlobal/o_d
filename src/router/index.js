@@ -65,6 +65,11 @@ const routes = [
     component: () => import("../components/example/animate/animate_DynamicPoints.vue")
   },
   {
+    path: '/animate_RunPath2',
+    name: 'animate_RunPath2',
+    component: () => import("../components/example/animate/animate_RunPath2.vue")
+  },
+  {
     path: '/animate_RunPath',
     name: 'animate_RunPath',
     component: () => import("../components/example/animate/animate_RunPath.vue")
