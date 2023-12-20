@@ -73,6 +73,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/animate/animate_Wind.jpg",
+          text: "风场图",
+          path: "/animate_Wind",
+        },
+        {
+          id: 9,
           img: "/images/animate/animate_FlowLine.jpg",
           text: "流动线",
           path: "/animate_FlowLine",

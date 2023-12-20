@@ -50,6 +50,11 @@ const routes = [
     component: () => import("../components/example/other/other_PointSelectPolygon.vue")
   },
   {
+    path: '/animate_Wind',
+    name: 'animate_Wind',
+    component: () => import("../components/example/animate/animate_Wind.vue")
+  },
+  {
     path: '/animate_FlowLine',
     name: 'animate_FlowLine',
     component: () => import("../components/example/animate/animate_FlowLine.vue")
