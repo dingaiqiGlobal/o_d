@@ -199,13 +199,19 @@ export default {
         },
         {
           id: 9,
-          img: "/images/thirdParty/turf_Buffer.jpg",
+          img: "/images/thirdParty/turf/turf_Split.jpg",
+          text: "turf_Split",
+          path: "/turf_Split",
+        },
+        {
+          id: 9,
+          img: "/images/thirdParty/turf/turf_Buffer.jpg",
           text: "turf_Buffer",
           path: "/turf_Buffer",
         },
         {
           id: 9,
-          img: "/images/thirdParty/turf_Intersect.jpg",
+          img: "/images/thirdParty/turf/turf_Intersect.jpg",
           text: "turf_Intersect",
           path: "/turf_Intersect",
         },

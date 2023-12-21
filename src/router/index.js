@@ -155,14 +155,19 @@ const routes = [
     component: () => import("../components/example/thirdParty/customContextMenu.vue")
   },
   {
+    path: '/turf_Split',
+    name: 'turf_Split',
+    component: () => import("../components/example/thirdParty/turf/turf_Split.vue")
+  },
+  {
     path: '/turf_Buffer',
     name: 'Buffer',
-    component: () => import("../components/example/thirdParty/turf_Buffer.vue")
+    component: () => import("../components/example/thirdParty/turf/turf_Buffer.vue")
   },
   {
     path: '/turf_Intersect',
     name: 'turf_Intersect',
-    component: () => import("../components/example/thirdParty/turf_Intersect.vue")
+    component: () => import("../components/example/thirdParty/turf/turf_Intersect.vue")
   },
   {
     path: '/osmbuildings',

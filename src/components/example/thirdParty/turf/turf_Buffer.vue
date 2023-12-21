@@ -37,7 +37,7 @@ import Collection from 'ol/Collection';
 import Draw from 'ol/interaction/Draw';
 
 import { pointsWithinPolygon, buffer } from '@turf/turf';
-import Coords2TurfGeom from '../../ol_Extend/turf/Coords2TurfGeom'
+import Coords2TurfGeom from '../../../ol_Extend/turf/Coords2TurfGeom'
 
 export default {
     name: 'Base',
@@ -179,13 +179,13 @@ export default {
             geometry.transform('EPSG:3857', 'EPSG:4326');
             const coords = geometry.getCoordinates();
 
-            const tf = Coords2TurfGeom[type](coords);//??
+            const tf = Coords2TurfGeom[type](coords);
             const tbf = buffer(tf, radius, {
                 units: units,
             });
             const obf = this.turf2ol(tbf);
             obf.getGeometry().transform("EPSG:4326", "EPSG:3857");
-            geometry.transform("EPSG:4326", "EPSG:3857");//绘制线-如果不转换就不显示
+            geometry.transform("EPSG:4326", "EPSG:3857");//绘制的线-如果不转换就不显示
             let obfVector = new VectorLayer({
                 source: new VectorSource(),
                 style: new Style({
