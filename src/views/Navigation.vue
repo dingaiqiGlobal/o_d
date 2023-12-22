@@ -304,6 +304,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/controls/control_LayerAuthority.jpg",
+          text: "control_LayerAuthority",
+          path: "/control_LayerAuthority",
+        },
+        {
+          id: 9,
           img: "/images/controls/control_Roller.jpg",
           text: "control_Roller",
           path: "/control_Roller",

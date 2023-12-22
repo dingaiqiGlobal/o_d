@@ -240,6 +240,11 @@ const routes = [
     component: () => import("../components/example/ol_util/MapUtil.vue")
   },
   {
+    path: '/control_LayerAuthority',
+    name: 'control_LayerAuthority',
+    component: () => import("../components/example/controls/control_LayerAuthority.vue")
+  },
+  {
     path: '/control_Roller',
     name: 'control_Roller',
     component: () => import("../components/example/controls/control_Roller.vue")
