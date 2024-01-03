@@ -85,18 +85,6 @@ export default {
         },
         {
           id: 9,
-          img: "/images/animate/animate_FlowLine.jpg",
-          text: "流动线",
-          path: "/animate_FlowLine",
-        },
-        {
-          id: 9,
-          img: "/images/animate/animate_ArrowLine.jpg",
-          text: "箭头线",
-          path: "/animate_ArrowLine",
-        },
-        {
-          id: 9,
           img: "/images/animate/animate_DynamicPoints.jpg",
           text: "扩散圆",
           path: "/animate_DynamicPoints",
@@ -251,8 +239,19 @@ export default {
           text: "GIF动图",
           path: "/icon_gif",
         },
-
-                {
+        {
+          id: 9,
+          img: "/images/style/style_FlowLine.jpg",
+          text: "流动线",
+          path: "/style_FlowLine",
+        },
+        {
+          id: 9,
+          img: "/images/style/style_ArrowLine.jpg",
+          text: "箭头线",
+          path: "/style_ArrowLine",
+        },
+        {
           id: 9,
           img: "/images/style/style_FileImage.jpg",
           text: "图片填充",

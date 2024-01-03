@@ -60,16 +60,6 @@ const routes = [
     component: () => import("../components/example/animate/animate_Wind.vue")
   },
   {
-    path: '/animate_FlowLine',
-    name: 'animate_FlowLine',
-    component: () => import("../components/example/animate/animate_FlowLine.vue")
-  },
-  {
-    path: '/animate_ArrowLine',
-    name: 'animate_ArrowLine',
-    component: () => import("../components/example/animate/animate_ArrowLine.vue")
-  },
-  {
     path: '/animate_DynamicPoints',
     name: 'animate_DynamicPoints',
     component: () => import("../components/example/animate/animate_DynamicPoints.vue")
@@ -198,6 +188,16 @@ const routes = [
     path: '/icon_gif',
     name: 'icon_gif',
     component: () => import("../components/example/thirdParty/icon_gif.vue")
+  },
+  {
+    path: '/style_FlowLine',
+    name: 'style_FlowLine',
+    component: () => import("../components/example/style/style_FlowLine.vue")
+  },
+  {
+    path: '/style_ArrowLine',
+    name: 'style_ArrowLine',
+    component: () => import("../components/example/style/style_ArrowLine.vue")
   },
   {
     path: '/style_FileImage',
