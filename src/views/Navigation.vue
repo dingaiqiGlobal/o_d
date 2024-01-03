@@ -252,6 +252,12 @@ export default {
           path: "/icon_gif",
         },
 
+                {
+          id: 9,
+          img: "/images/style/style_FileImage.jpg",
+          text: "图片填充",
+          path: "/style_FileImage",
+        },
         {
           id: 9,
           img: "/images/style/themeGraduatedSymbol.jpg",

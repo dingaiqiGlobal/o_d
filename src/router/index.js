@@ -200,6 +200,11 @@ const routes = [
     component: () => import("../components/example/thirdParty/icon_gif.vue")
   },
   {
+    path: '/style_FileImage',
+    name: 'style_FileImage',
+    component: () => import("../components/example/style/style_FileImage.vue")
+  },
+  {
     path: '/themeGraduatedSymbol',
     name: 'themeGraduatedSymbol',
     component: () => import("../components/example/style/themeGraduatedSymbol.vue")
