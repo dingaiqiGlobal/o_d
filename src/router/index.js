@@ -45,6 +45,11 @@ const routes = [
     component: () => import("../components/example/other/other_cover.vue")
   },
   {
+    path: '/other_Asymptotic',
+    name: 'other_Asymptotic',
+    component: () => import("../components/example/other/other_Asymptotic.vue")
+  },
+  {
     path: '/other_PointSelectPolygon',
     name: 'other_PointSelectPolygon',
     component: () => import("../components/example/other/other_PointSelectPolygon.vue")

@@ -67,6 +67,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/other/other_Asymptotic.jpg",
+          text: "逐级下钻",
+          path: "/other_Asymptotic",
+        },
+        {
+          id: 9,
           img: "/images/other/other_PointSelectPolygon.jpg",
           text: "点找面",
           path: "/other_PointSelectPolygon",
