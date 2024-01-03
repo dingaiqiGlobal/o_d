@@ -247,6 +247,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/style/style_ArrowLine2.jpg",
+          text: "箭头线2",
+          path: "/style_ArrowLine2",
+        },
+        {
+          id: 9,
           img: "/images/style/style_ArrowLine.jpg",
           text: "箭头线",
           path: "/style_ArrowLine",

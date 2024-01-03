@@ -200,6 +200,11 @@ const routes = [
     component: () => import("../components/example/style/style_ArrowLine.vue")
   },
   {
+    path: '/style_ArrowLine2',
+    name: 'style_ArrowLine2',
+    component: () => import("../components/example/style/style_ArrowLine2.vue")
+  },
+  {
     path: '/style_FileImage',
     name: 'style_FileImage',
     component: () => import("../components/example/style/style_FileImage.vue")
