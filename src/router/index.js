@@ -400,6 +400,11 @@ const routes = [
     component: () => import("../components/example/OGC/WFS_Add.vue")
   },
   {
+    path: '/layers_ship_3395',
+    name: 'layers_ship_3395',
+    component: () => import("../components/example/layers/layers_ship_3395.vue")
+  },
+  {
     path: '/layers_MVT_Geojson',
     name: 'layers_MVT_Geojson',
     component: () => import("../components/example/layers/layers_MVT_Geojson.vue")

@@ -502,6 +502,12 @@ export default {
         /**
          * 地图示例
          */
+                {
+          id: 9,
+          img: "/images/layers/layers_ship_3395.jpg",
+          text: "海图修正(偏移)",
+          path: "/layers_ship_3395",
+        },
         {
           id: 9,
           img: "/images/layers/layers_MVT_Geojson.jpg",
