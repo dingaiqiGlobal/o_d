@@ -100,6 +100,11 @@ const routes = [
     component: () => import("../components/example/feature/removeFeatureError.vue")
   },
   {
+    path: '/interaction_Snap',
+    name: 'interaction_Snap',
+    component: () => import("../components/example/interaction/interaction_Snap.vue")
+  },
+  {
     path: '/interaction_DragAndDrop',
     name: 'interaction_DragAndDrop',
     component: () => import("../components/example/interaction/interaction_DragAndDrop.vue")

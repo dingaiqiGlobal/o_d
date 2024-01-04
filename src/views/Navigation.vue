@@ -133,6 +133,12 @@ export default {
         },
         {
           id: 9,
+          img: "/images/interaction/interaction_Snap.jpg",
+          text: "吸附、追踪",
+          path: "/interaction_Snap",
+        },
+        {
+          id: 9,
           img: "/images/interaction/interaction_DragAndDrop.jpg",
           text: "拖拽加载数据",
           path: "/interaction_DragAndDrop",
@@ -502,7 +508,7 @@ export default {
         /**
          * 地图示例
          */
-                {
+        {
           id: 9,
           img: "/images/layers/layers_ship_3395.jpg",
           text: "海图修正(偏移)",
