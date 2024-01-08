@@ -5,6 +5,16 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/file_shapefile',
+    name: 'file_shapefile',
+    component: () => import("../components/example/file/file_shapefile.vue")
+  },
+  {
+    path: '/file_csv',
+    name: 'file_csv',
+    component: () => import("../components/example/file/file_csv.vue")
+  },
+  {
     path: '/webgl_Point',
     name: 'webgl_Point',
     component: () => import("../components/example/webgl/webgl_Point.vue")

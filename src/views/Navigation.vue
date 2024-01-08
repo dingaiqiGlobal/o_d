@@ -19,6 +19,18 @@ export default {
       list: [
         {
           id: 9,
+          img: "/images/file/file_shapefile.jpg",
+          text: "shapefile文件",
+          path: "/file_shapefile",
+        },
+        {
+          id: 9,
+          img: "/images/file/",
+          text: "csv文件",
+          path: "/file_csv",
+        },
+        {
+          id: 9,
           img: "/images/webgl/webgl_point.jpg",
           text: "webgl渲染点",
           path: "/webgl_point",
