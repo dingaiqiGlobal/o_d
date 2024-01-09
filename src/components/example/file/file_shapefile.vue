@@ -81,6 +81,11 @@ export default {
     this.addSHPLayer("data/shp/counties/counties.shp")
   },
   methods: {
+    /**
+     * 三方包：cnpm i shpjs --save
+     * 项目中需要后端解析文件
+     * 
+     */
     addSHPLayer(url) {
       const loadSHPData = async (url) => {
         const response = await fetch(url);

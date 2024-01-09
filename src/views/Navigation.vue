@@ -25,7 +25,7 @@ export default {
         },
         {
           id: 9,
-          img: "/images/file/",
+          img: "/images/file/file_csv.jpg",
           text: "csv文件",
           path: "/file_csv",
         },
